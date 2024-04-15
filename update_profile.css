@@ -1,0 +1,21 @@
+.navbar{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(71, 3, 98);
+    display:inline-flex;
+    left: 0%;
+    position: absolute;
+    top: 0%;
+           
+}
+    .img{ margin-left: 40px;
+}
+.institue_name{
+margin-left: 5px;
+
+}
+.h1{ color: white;  font-size: 25px;font-family: sans-serif; }
+.setup{font-size: 15px; font-weight: 100;}
+
+
+

@@ -1,0 +1,30 @@
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(71, 3, 98);
+    display:flex ;
+   position: fixed;
+   left: 0%;
+top: 0%;}
+
+.img{ margin-left: 10px;
+}
+.institue_name{
+margin-left: 5px;
+
+}
+.h1{ color: white;  font-size: 20px;font-family: sans-serif; }
+.setup{font-size: 15px; font-weight: 100;}
+
+
+.nav_bar_ul{ margin-left: 570px;margin-top: 10px;
+ 
+}
+.navbaricon{display: flex; ;
+}
+.navbarli{list-style: none;}
+.anav{ color: white; font-size: 20px; margin-left: 20px;text-decoration: none;}
+  
+
+.di:hover{background-color:#2c127e; }
+

@@ -1,0 +1,119 @@
+body{
+ background-color: #d0448e;
+}
+
+
+#container1{
+    /* border: 1px solid black; */
+    display: flex;
+    margin-right: 40px;
+    
+}
+#container2{
+   
+    margin-top: 200px;
+    margin-left: 150px;
+
+}
+#container3{
+    border: 1px solid black;
+    margin-top: 80px;
+    background-color: white;
+    border-radius: 10px ;
+    width: 800px;
+    height: 550px;
+
+
+}
+
+#logo{
+    text-align: center;
+}
+
+#heading{
+    font-size: 40px;
+    font-family: sans-serif;
+    color:white;
+    text-align: center;
+}
+#heading2{    font-size: 20px;
+    font-family: sans-serif;
+    color:white;
+    text-align: center;
+margin-top: 0px;
+}
+ul li{
+    margin-left: 4px;
+}
+.login:hover{background-color: brown;
+    color:white; 
+}
+.login{
+    color: #d0448e;
+}
+#forgot:hover{color: #d0448e;}
+#forgot{
+    color: black;
+}
+
+#l1:hover{background-color: brown;color:white;}
+#l2:hover{background-color: brown;color:white;}
+#l3:hover{background-color: brown;color:white;}
+#l4:hover{background-color: brown;color:white;}
+#l5:hover{background-color: brown;color:white;}
+#l1,#l2,#l3,#l4,#l5{
+    color: #d0448e;
+    background-color: white;
+}
+
+.firsttimeuser:hover{color: #d0448e;text-decoration: underline;
+}
+.firsttimeuser{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#input1{
+    width: 400px;height: 10px; padding: 10px; border-radius: 5px ; border-color: rgba(128, 128, 128, 0.24); margin-left: 50px;
+}
+#input2{
+    width: 400px;height: 10px; padding: 10px; border-radius: 5px ; border-color: rgba(128, 128, 128, 0.24); margin-left: 50px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: #d0448e;
+        left: 0%;
+       }
+       
+       
+       #container1{
+        
+         display: inline;
+          
+           
+       }
+
+       #container3{
+           border: 1px solid black;
+           margin-top: 80px;
+           background-color: rgb(255, 255, 255);
+           border-radius: 10px ;
+           width:490px;
+           height: 600px;
+           
+       
+       
+       }
+
+       #input1{
+                width: 300px;
+       }
+       #input2{
+        width: 300px;
+}
+
+  }
